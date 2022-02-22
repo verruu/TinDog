@@ -1,0 +1,191 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-head {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.sect-head {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 5% 15%
+}
+
+/* Sections */
+.coloured-section {
+  color: #fff;
+  background-color: #FF4C68;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title section */
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.nba {
+  text-align: center;
+}
+
+.ciulbutton {
+  margin: auto;
+}
+
+.navbar {
+  padding: 0 5rem;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 100;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.entry-part {
+  padding-top: 7rem;
+}
+
+/* Download Buttons */
+.dbutton {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title IMG */
+.tiim {
+  position: absolute;
+  width: 300px;
+  transform: rotate(25deg) translateX(5rem);
+}
+
+/* Features section */
+#features {
+  position: relative;
+}
+
+.feat-title {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.feats {
+  padding: 5rem 0;
+}
+
+/* Feat Icons */
+.featico {
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.featico:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimg {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 4rem 6rem;
+}
+
+.pricrd {
+  padding: 3% 2%;
+}
+
+.plan-name {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.price-txt {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CTA section */
+.bbutton {
+  margin: 5% 2%;
+}
+
+/* Footer section */
+#footer {
+  font-weight: 700;
+  font-size: 0.5rem;
+}
+
+.foic {
+  margin: 10px 5px;
+}
+
+/* Hide DIV based on device resolution */
+@media (max-width: 1100px) {
+  #title {
+    text-align: center;
+  }
+
+  .tiim {
+    position: static;
+    transform: rotate(0);
+  }
+}
